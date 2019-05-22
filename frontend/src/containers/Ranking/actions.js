@@ -48,7 +48,7 @@ const getSuperHeroes = (dispatch, payload) => {
 };
 
 const orderSuperHeroes=(rankins)=>{
-  rankins=rankins.sort(function(a, b) {return a.like - b.like});
+  rankins=rankins.sort(function(a, b) {return  b.like-a.like});
   return rankins.splice(0,10);
 }
 

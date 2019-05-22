@@ -42,7 +42,7 @@ const reducer = reduxUtil.createReducer(
       newState.rankinOrder=[];
       newState.index=newState.index-2;
       for(let i=newState.index-1;i>=(newState.index-2);i--){
-        newState.rankinOrder.push(newState.rankins[i]);
+        newState.rankinOrder[i]=newState.rankins[i];
       }
       return newState;
     },
