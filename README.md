@@ -10,6 +10,8 @@ para poder correr el projecto siga estos pasos y tenga encuenta estos requisitos
 
 deve tener instalado nodejs,npm y php
 
+descarge el projecto o clonelo 
+
 -----------------------------------------------------Backend---------------------------------------------------------------------------
 
 para correr el backend debe dirigirse a la carpeta de backend y ejecutar el siguiente comando 
@@ -71,6 +73,8 @@ primero recuerda tener instalado el nodejs
 
 ejecuta los siguientes comandos
 
+cd frontend
+
 npm run install
 
 npm run start
@@ -87,7 +91,14 @@ se debe ver algo como esto
 
 
 
----------------------------------------------------FRONTEND------------------------------------------------------------------------------
+---------------------------------------------------FRONTEND-----------------------------------------------------------------------------
+
+
+NOTA:Si decide ejecutar el backend directamente en un httdocs en apache o en un xamp por favor verifique como quedo la ruta base
+de la api y cambie la URL_API en el frontend en el archivo de constantes que se encuentre en frontend/src/constants.js
+
+
+![image](https://user-images.githubusercontent.com/27745102/58146612-81caf080-7c1c-11e9-9807-0c4e6902fdbe.png)
 
 
 
