@@ -80,6 +80,10 @@ siguiente ruta
 
 http://localhost:8091/#/
 
+se debe ver algo como esto 
+
+![Captura](https://user-images.githubusercontent.com/27745102/58146187-ab831800-7c1a-11e9-9af8-8610510d68b0.PNG)
+
 
 
 
